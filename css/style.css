@@ -32,7 +32,6 @@ p {
 .albums {
   width: calc(100% - 20px / 3);
   background-color: black;
-  padding: 20px;
   margin: 20px;
   display: inline-block;
 }
