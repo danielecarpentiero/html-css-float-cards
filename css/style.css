@@ -9,12 +9,11 @@ body {
 }
 
 header {
-  background-color: aqua;
   font-size: 50px;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 60px;
-  font-weight: bold;
+  font-weight: 700;
   color: #e53170;
 }
 
@@ -25,14 +24,14 @@ p {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
 .clearfix::after {
   content: '';
-  display: block;
   clear: both;
+  display: block;
 }
 
 .albums {
@@ -40,4 +39,39 @@ p {
   background-color: black;
   margin: 20px;
   float: left;
+  box-shadow: 5px 5px 5px 5px #e7e7e6;
+}
+
+.text {
+  padding: 20px;
+}
+
+.text,
+img {
+  float: left;
+  font-size: 25px;
+}
+
+h2,
+h3,
+h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  color: white;
+}
+h4 {
+  color: #17ccf2;
+}
+
+h3,
+h4 {
+  font-weight: 400;
 }
